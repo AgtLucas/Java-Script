@@ -1,4 +1,4 @@
-/*Exemplo 9 simples border layout
+/*Exemplo 9 simples border layout*/
 
 Ext.onReady(function() {
 	new Ext.Viewport({
@@ -17,9 +17,9 @@ Ext.onReady(function() {
 		}]
 	});
 });
-*/
 
-/*Exemplo 8 introdução a containers e manipulação
+
+/*Exemplo 8 introdução a containers e manipulação*/
 
 Ext.onReady(function() {
 	var panel1 = {
@@ -84,10 +84,10 @@ Ext.onReady(function() {
 	//Ext.getCmp('myWin').findByType('panel');//Compativel com EXT3
 	
 });
-*/
 
 
-/*Exemplo 7 renderazição tardia
+
+/*Exemplo 7 renderazição tardia*/
 
 Ext.onReady(function() {
 	//Instanciamos um novo panel
@@ -109,9 +109,9 @@ Ext.onReady(function() {
 	//Obs: não aparecerá dois panels pois é a mesma instancia só trocamos aonde ele foi renderizado
 	//se fizermos em body e dinamic
 });
-*/
 
-/*Exemplo 6 renderização imediadata com renderTo
+
+/*Exemplo 6 renderização imediadata com renderTo*/
 
 Ext.onReady(function() {
 	var myPanel = new Ext.Panel({
@@ -122,11 +122,11 @@ Ext.onReady(function() {
 		frame : true
 	});
 });
-*/
+
 
 /*Exemplo 5 passando diretamento os xtype no objeto
 usando xtype temos um aumento de desempenho que podemos ver
-quando em grandes escalas
+quando em grandes escalas*/
 
 Ext.onReady(function() {
 	new Ext.Window({
@@ -148,9 +148,9 @@ Ext.onReady(function() {
 		}]
 	}).show();
 });
-*/
 
-/*Exemplo 4 com xtypes
+
+/*Exemplo 4 com xtypes*/
 
 Ext.onReady(function() {
 	
@@ -179,9 +179,9 @@ Ext.onReady(function() {
 		items : [ panel1, panel2] //Adicionando os panel a windows
 	}).show();
 });
-*/
 
-/*Exemplo 3 conhecendo observable
+
+/*Exemplo 3 conhecendo observable*/
 
 Ext.onReady(function() {
 	
@@ -216,9 +216,9 @@ Ext.onReady(function() {
 	//Estou desregistrando um evento de observable
 	myObservable.un('sayGoodbye',sayGoodbyFn);
 });
-*/
 
-/* Segundo exemplo contextmenu evento click botão direito
+
+/* Exemplo 2 contextmenu evento click botão direito*/
 
 Ext.onReady(function() {
 	Ext.get('myDiv').on('contextmenu', function(eventObj, elRef) {
@@ -245,9 +245,9 @@ Ext.onReady(function() {
 		this.ctxMenu.show(elRef);
 	});
 });
-*/
 
-/* Primeiro exemplo
+
+/* Exemplo 1 eventos*/
 
 Ext.onReady(function() {
 	
@@ -266,4 +266,4 @@ Ext.onReady(function() {
 		+ elRef.id);
 	});
 });
-*/
+

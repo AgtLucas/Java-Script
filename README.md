@@ -1,4 +1,4 @@
-Java-Script
+JavaScript
 ===========
 
 Learning JS

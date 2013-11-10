@@ -1,4 +1,4 @@
-/*Exemplo 14 Exemplo simples de border layout com algumas configurações comuns
+/*Exemplo 14 Exemplo simples de border layout com algumas configurações comuns*/
 
 Ext.onReady(function() {
 	new Ext.Viewport({
@@ -78,10 +78,10 @@ Ext.onReady(function() {
 	//	}]
 	//});
 });
-*/
 
 
-/*Exemplo 13 TableLayout com algumas modificações de row e colspan
+
+/*Exemplo 13 TableLayout com algumas modificações de row e colspan*/
 
 Ext.onReady(function() {
 	var myWin = new Ext.Window({
@@ -127,10 +127,10 @@ Ext.onReady(function() {
 		}]
 	}).show();
 });
-*/
 
 
-/*Exemplo 12 simples exemplo de tabela no Ext
+
+/*Exemplo 12 simples exemplo de tabela no Ext*/
 
 Ext.onReady(function() {
 	var myWin = new Ext.Window({
@@ -168,9 +168,9 @@ Ext.onReady(function() {
 		}]
 	}).show();
 });
-*/
 
-/*Exemplo 11 hbox/vbox layout
+
+/*Exemplo 11 hbox/vbox layout*/
 
 Ext.onReady(function() {
 	new Ext.Window({
@@ -197,10 +197,10 @@ Ext.onReady(function() {
 		}]
 	}).show();
 });
-*/
 
 
-/*Exemplo 10 layout utilizando colunas
+
+/*Exemplo 10 layout utilizando colunas*/
 
 Ext.onReady(function() {
 
@@ -233,9 +233,9 @@ Ext.onReady(function() {
 	}).show();
 	
 });
-*/
 
-/*Exemplo 9 usando cardLayout para criar um wizard
+
+/*Exemplo 9 usando cardLayout para criar um wizard*/
 
 var myWin;
 
@@ -315,9 +315,9 @@ Ext.onReady(function() {
 		}]
 	}).show();
 });
-*/
 
-/*Exemplo 8 simples accordion layout
+
+/*Exemplo 8 simples accordion layout*/
 
 Ext.onReady(function() {
 	var myWin = new Ext.Window({
@@ -363,10 +363,10 @@ Ext.onReady(function() {
 		}]
 	}).show();
 });
-*/
+
 
 /*Exemplo 7 FitLayout faz os componentes se ajustarem no componente pai
-o xtype default de window é panel
+o xtype default de window é panel*/
 
 Ext.onReady(function() {
 	var myWin = new Ext.Window({
@@ -383,9 +383,9 @@ Ext.onReady(function() {
 		}]
 	}).show();
 });
-*/
 
-/*Exemplo 6 usando absolute layout para organização chumbada
+
+/*Exemplo 6 usando absolute layout para organização chumbada*/
 
 Ext.onReady(function() {
 	var myWin = new Ext.Window({
@@ -415,11 +415,11 @@ Ext.onReady(function() {
 		}]
 	}).show();
 });
-*/
+
 
 
 /*Exemplo 5 como formLayout é filho de anchorLayut podemos customizar
-as configuaçãoes usando a propriedade anchor
+as configuaçãoes usando a propriedade anchor*/
 
 Ext.onReady(function() {
 
@@ -458,9 +458,9 @@ Ext.onReady(function() {
 		}]
 	}).show();
 });
-*/
 
-/*Exemplo 4 uso simples de formLayout em um form
+
+/*Exemplo 4 uso simples de formLayout em um form*/
 
 Ext.onReady(function() {
 
@@ -498,11 +498,11 @@ Ext.onReady(function() {
 		}]
 	}).show();
 });
-*/
+
 
 /*Exemplo 3 anchor usando deslocamentos, a gente usa o inteniro negativo em referência ao
 número absoluto do panel, é como dizer quanto você quer tirar do componente que habitara
-o Window
+o Window*/
 
 Ext.onReady(function() {
 
@@ -526,10 +526,10 @@ Ext.onReady(function() {
 		}]
 	}).show();
 });
-*/
 
 
-/*Exemplo 2 : anchor layout usando porcentagens para dimensionamento
+
+/*Exemplo 2 : anchor layout usando porcentagens para dimensionamento*/
 
 Ext.onReady(function() {
 
@@ -557,10 +557,10 @@ Ext.onReady(function() {
 		}]
 	}).show();
 });
-*/
+
 
 /*Exemplo 1 treinando layouts : ContainerLayout layout padrão EXT quando não
-definimos nenhum
+definimos nenhum*/
 
 Ext.onReady(function() {
 	var childPnl1 = {
@@ -600,4 +600,4 @@ Ext.onReady(function() {
 		}]
 	}).show();
 });
-*/
+

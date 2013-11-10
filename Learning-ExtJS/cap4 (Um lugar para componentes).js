@@ -1,4 +1,4 @@
-/*Exemplo 9 gerenciando tabs
+/*Exemplo 9 gerenciando tabs*/
 
 Ext.onReady(function() {
 	var disabledTab = {
@@ -53,9 +53,9 @@ Ext.onReady(function() {
 	//	});
 	//}
 });
-*/
 
-/*Exemplo 8 tab panel em window
+
+/*Exemplo 8 tab panel em window*/
 
 Ext.onReady(function() {
 
@@ -104,9 +104,9 @@ Ext.onReady(function() {
 	
 	
 });
-*/
 
-/*Exemplo 7 controller loading box
+
+/*Exemplo 7 controller loading box*/
 
 Ext.onReady(function() {
 	Ext.MessageBox.show({
@@ -135,17 +135,17 @@ Ext.onReady(function() {
 		setTimeout(updateFn(i), i * 500);
 	}
 });
-*/
 
-/*Exemplo 6 simples loading box
+
+/*Exemplo 6 simples loading box*/
 
 Ext.onReady(function(){
 	Ext.MessageBox.wait('We"re doing something...','Hold on...',{ text : 'Loading...'});
 });
-*/
 
 
-/*Exemplo 5 MessageBox com varios buttons
+
+/*Exemplo 5 MessageBox com varios buttons*/
 
 Ext.onReady(function() {
 	var myCallBack = function(btn,text) {
@@ -185,10 +185,10 @@ Ext.onReady(function() {
 		icon : Ext.MessageBox.ERROR
 	});
 });
-*/
 
 
-/*Exemplo 4 Window Solid
+
+/*Exemplo 4 Window Solid*/
 
 Ext.onReady(function() {
 	var win;
@@ -221,11 +221,11 @@ Ext.onReady(function() {
 		handler : newWindow
 	});
 });
-*/
 
 
 
-/*Exemplo 3 simples exemplo de window
+
+/*Exemplo 3 simples exemplo de window*/
 
 Ext.onReady(function() {
 	var win;
@@ -251,9 +251,9 @@ Ext.onReady(function() {
 		handler : newWindow
 	});
 });
-*/
 
-/*Exemplo 2 usando matrizes de itens para panel e definind toolbars
+
+/*Exemplo 2 usando matrizes de itens para panel e definind toolbars*/
 
 var myBtnHandler = function(btn) {
 	Ext.MessageBox.alert('You clicked', btn.text);
@@ -312,10 +312,10 @@ Ext.onReady(function() {
 		}]
 	});
 });
-*/
 
 
-/*Exemplo 1 de renderização sem xtypes
+
+/*Exemplo 1 de renderização sem xtypes*/
 
 var myBtnHandler = function(btn) {
 	Ext.MessageBox.alert('You clicked', btn.text);
@@ -361,4 +361,4 @@ Ext.onReady(function() {
 	});
 	
 });
-*/
+
